@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Form</title>
+</head>
+<body>
+    <h1>Search for Similar Items</h1>
+    <form id="searchForm" method="POST" action="/search">
+        <label for="query">Enter your search query:</label><br>
+        <input type="text" id="query" name="query" required><br><br>
+        <button type="submit">Search</button>
+    </form>
+    <div id="results"></div> <!-- Placeholder for displaying search results -->
+</body>
+</html>
